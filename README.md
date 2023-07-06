@@ -1,3 +1,15 @@
+## We have two accounts with different rules
+
+## Rules
+
+| Rule Number | Rule Description         | Username | Password  |
+| ----------- | ------------------------ |--------- | --------- |
+| 1   Editor  | Only view .              |  admin   | Admin@123 |
+| 2   Viewer  | View and search on Data. |  guest   | Guest@123 |
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
