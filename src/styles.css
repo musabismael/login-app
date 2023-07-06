@@ -1,0 +1,47 @@
+.container {
+    /* ...existing styles... */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+
+    th,
+    td {
+        font-size: 14px;
+    }
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.pagination li {
+    cursor: pointer;
+    margin: 0 0.5rem;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pagination li.active {
+    background-color: #fbbf24;
+    color: #fff;
+}
