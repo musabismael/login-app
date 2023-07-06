@@ -2,10 +2,10 @@
 
 ## Rules
 
-| Rule Number | Rule Description         | Username | Password  |
-| ----------- | ------------------------ |--------- | --------- |
-| 1   Editor  | Only view .              |  admin   | Admin@123 |
-| 2   Viewer  | View and search on Data. |  guest   | Guest@123 |
+| Rule Number | Rule Description               | Username | Password  |
+| ----------- | -------------------------------|--------- | --------- |
+| 1   Editor  |  View and search on Data Table |  admin   | Admin@123 |
+| 2   Viewer  |  Only view on Data Table.      |  guest   | Guest@123 |
 
 
 
